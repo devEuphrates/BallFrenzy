@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad8c3f569944d6e49b53f889dabd45d9, type: 3}
+  m_Name: Ball Manager
+  m_EditorClassIdentifier: 
+  _balls:
+  - Name: $1
+    Material: {fileID: 2100000, guid: 4b21791ae35692d4492a7d54fa518106, type: 2}
+  - Name: $2
+    Material: {fileID: 2100000, guid: acbd9f0d5c2021d40a802d1b807610f9, type: 2}
+  - Name: $4
+    Material: {fileID: 2100000, guid: 9f82eef1b27ef5d4fb712ada48725631, type: 2}
+  - Name: $8
+    Material: {fileID: 2100000, guid: 231b5197a6675c14fad8f05e362e3863, type: 2}
+  - Name: $16
+    Material: {fileID: 2100000, guid: 2a335b6ac56b8f64a980c41c3d255fb2, type: 2}
+  - Name: $32
+    Material: {fileID: 2100000, guid: 090aae63e31960b4da57b6395c763d17, type: 2}
+  - Name: $64
+    Material: {fileID: 2100000, guid: 80cc8492968d1d64f8e7c4f563360749, type: 2}
+  - Name: $128
+    Material: {fileID: 2100000, guid: 9557bf6a2c255864a8bc5ae10bdac243, type: 2}
+  - Name: $256
+    Material: {fileID: 2100000, guid: 21cd9c475cfd5b84e9a5e73289f376f0, type: 2}
+  - Name: $512
+    Material: {fileID: 2100000, guid: 6509d148b7cd1254c8f2c8e9225809ed, type: 2}
+  - Name: $1024
+    Material: {fileID: 2100000, guid: ced2fef8a6dc6e14aba4374dd4f5b80a, type: 2}
+  _ballSlots: ffffffffffffffffffffffffffffffffffffffff0400000003000000ffffffffffffffffffffffffffffffff
+  _catchedBalls: []
+  _maxCatchedShown: 300
